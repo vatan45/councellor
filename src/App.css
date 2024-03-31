@@ -382,7 +382,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #090909;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -432,7 +432,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(246, 243, 243, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#projects-tabs-tab-second {
@@ -448,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  min-height: 300px; /* Adjust the value as needed */
+  min-height: relative; /* Adjust the value as needed */
 }
 
 
@@ -462,8 +462,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
+  background: linear-gradient(90.21deg, #f1eaea -5.91%, #e8e8f5 111.58%);
+  opacity: 0.75;
   position: absolute;
   width: 100%;
   height: 0;
@@ -477,6 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   top: 65%;
   left: 50%;
+  color: #090909;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
   opacity: 0;
@@ -491,6 +492,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
+  color: #0e0e0e;
   line-height: 1.1em;
 }
 .proj-txtx span {

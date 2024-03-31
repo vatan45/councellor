@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/images/img/project-img1.png";
-import projImg2 from "../assets/images/img/project-img2.png";
-import projImg3 from "../assets/images/img/project-img3.png";
+import projImg1 from "../assets/images/img/Elvish.jpg";
+import projImg2 from "../assets/images/img/Elvish.jpg";
+import projImg3 from "../assets/images/img/Elvish.jpg";
 import colorSharp2 from "../assets/images/img/color-sharp2.png";
 
 
@@ -14,19 +14,19 @@ export const Projects = () => {
       title: "Basic",
       description: "Preference-list",
       imgUrl: projImg1,
-      price: "19-/ rupees"
+      price: "Rs:- 19"
     },
     {
       title: "Gold",
       description: "Preference-list + one to one live session from experts at iit's",
       imgUrl: projImg2,
-      price: "49-/ rupees"
+      price: "Rs:- 49"
     },
     {
       title: "Diamond",
-      description: "Preference-list + live session from your desired college ambassador+ hand-on choice filling",
+      description: "Preference-list + live session from your desired college ambassador+ hand-on choice filling+ one to one live session once in a week",
       imgUrl: projImg3,
-      price: "199-/ rupees"
+      price: "Rs:- 199"
     },
     
   ];
