@@ -58,9 +58,9 @@ export const Banner = () => {
             
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder Img"/>
+    <img src={headerImg} alt="Header Img" style={{ width: '100%', height: 'auto' }} />
+</Col>
 
-                    </Col>
                 </Row>
             </Container>
         </section>
