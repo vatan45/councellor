@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 .banner button {
-  color: #0ed82f;
+  color: #f7f5f9;
   background-color: #121212;
   font-weight: 700;
   font-size: 20px;
@@ -376,15 +376,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb(17, 17, 17);
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
+.project h4 {
+  color: #fdf9f9;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
 .project p {
-  color: #090909;
+  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -587,6 +596,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+/*************contact******/
+
 
 .Contact {
   padding: 80px 0;
@@ -595,11 +606,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .Contact h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #a7fb1f;
+  color: #fefefe;
 }
 
 .Contact form {
-  background-color: #2eb9a6;
+  background-color: #6d27bd;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -621,8 +632,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .Contact button[type="submit"] {
-  background-color: #007bff;
-  color: #87d528;
+  background-color: #13e57c;
+  color: #3111e7;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -631,7 +642,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .Contact button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #1575dc;
 }
 
 .Contact p {
@@ -639,7 +650,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .Contact .success {
-  color: #28a745;
+  color: #282ca7;
 }
 
 .Contact .danger {

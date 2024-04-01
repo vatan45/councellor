@@ -13,8 +13,8 @@ export const ProjectCard = ({ title, description, imgUrl, price, onButtonClick }
         <img src={imgUrl} alt={title} /> {/* Add alt attribute */}
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span>
-          <p>Price: {price}</p> {/* Display price */}
+          
+          
           <Button onClick={handleButtonClick}>Buy Now</Button> {/* Use Button component */}
         </div>
       </div>
