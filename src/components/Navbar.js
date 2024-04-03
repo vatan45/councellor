@@ -46,7 +46,7 @@ const CustomNavbar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <button className="vvd" onClick={handleConnectClick}><span>Let's Connect</span></button>
+                            
                         </div>
                     </span>
                 </BootstrapNavbar.Collapse>

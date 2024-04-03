@@ -1,9 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/images/img/Elvish.jpg";
-import projImg2 from "../assets/images/img/Elvish.jpg";
-import projImg3 from "../assets/images/img/Elvish.jpg";
+import projImg1 from "../assets/images/img/baiscjac.jpg";
+import projImg2 from "../assets/images/img/goldjac.jpg";
+import projImg3 from "../assets/images/img/combo.jpg";
 import colorSharp2 from "../assets/images/img/color-sharp2.png";
+import { Axios } from "axios";
 
 
 
@@ -14,19 +15,19 @@ export const Projects = () => {
       title: "Basic",
       description: "Preference-list",
       imgUrl: projImg1,
-      price: "Rs:- 19"
+      amount: "Rs:- 19"
     },
     {
       title: "Gold",
       description: "Preference-list + one to one live session from experts at iit's",
       imgUrl: projImg2,
-      price: "Rs:- 49"
+      amount: "Rs:- 49"
     },
     {
       title: "Diamond",
       description: "Preference-list + live session from your desired college ambassador+ hand-on choice filling+ one to one live session once in a week",
       imgUrl: projImg3,
-      price: "Rs:- 199"
+      amount: "Rs:- 199"
     },
     
   ];
@@ -38,7 +39,7 @@ export const Projects = () => {
           <Col size={12}>
            
                 <h2>Plans</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h4>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

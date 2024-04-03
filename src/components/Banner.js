@@ -50,7 +50,7 @@ export const Banner = () => {
                 <Row className="align-items">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Choose your dream college</span>
-                        <h1>{`Councelling starting at just ₹19 for  `}<span className="wrap">{text}</span></h1>
+                        <h1>{`Councelling starts at ₹19 for  `}<span className="wrap">{text}</span></h1>
                         <p>
                             we provide the best Councelling advise for choosing the college in which you gonna spend the most precious years of your life , take this decision in your hand and consult our gurus from top IIT's
                         </p>
@@ -58,9 +58,9 @@ export const Banner = () => {
             
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder Img"/>
+    <img src={headerImg} alt="Header Img" style={{ width: '100%', height: 'auto' }} />
+</Col>
 
-                    </Col>
                 </Row>
             </Container>
         </section>
