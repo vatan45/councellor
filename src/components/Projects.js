@@ -4,7 +4,7 @@ import projImg1 from "../assets/images/img/baiscjac.jpg";
 import projImg2 from "../assets/images/img/goldjac.jpg";
 import projImg3 from "../assets/images/img/combo.jpg";
 import colorSharp2 from "../assets/images/img/color-sharp2.png";
-import { Axios } from "axios";
+
 
 
 
