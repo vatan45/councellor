@@ -8,6 +8,8 @@ import { Axios } from "axios";
 
 
 
+
+
 export const Projects = () => {
 
   const projects = [
@@ -49,7 +51,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Jossa</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Jac & Jossa</Nav.Link>
+                      <Nav.Link eventKey="third">combo</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content >
