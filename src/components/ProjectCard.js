@@ -56,13 +56,13 @@ export const ProjectCard = ({ title, description, imgUrl, amount, onButtonClick 
         <img src={imgUrl} alt={title} />
         <div className="proj-txtx">
           <h4>{title}</h4>
-<<<<<<< HEAD
+
           <Button id="rzp-button1" onClick={() => handleButtonClick(amount)}>Buy Now</Button>
-=======
+
           
           
           <Button onClick={handleButtonClick}>Buy Now</Button> {/* Use Button component */}
->>>>>>> 8666e3390d8368934a5bc8b6145c6cd7aabff91c
+ 8666e3390d8368934a5bc8b6145c6cd7aabff91c
         </div>
       </div>
     </Col>
