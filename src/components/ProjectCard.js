@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, imgUrl, currency, receipt, amount }) => {
     const response = await fetch("http://localhost:3000/order", {
       method: "POST",
       body: JSON.stringify({
-        paisa,
+        amount,
         currency,
         receipt,
       }),
